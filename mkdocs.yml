@@ -3,9 +3,10 @@ site_author: Mahdi Hastie
 copyright: "Copyright &copy; 2024 MH"
 nav: #add pages here (can't be sub pages)
   - index.md
+  - index2.md
   - projects.md
   - words.md
-theme:
+theme: 
   name: material
   features:
     - navigation.tabs
@@ -48,6 +49,3 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg

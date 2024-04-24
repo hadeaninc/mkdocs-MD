@@ -1,8 +1,4 @@
+# netlify.toml
 [build]
-publish = "site"
-command = """
-pip3 install -q poetry &&
-poetry config virtualenvs.in-project true &&
-poetry install -v &&
-mkdocs build -d site
-"""
+  command = "mkdocs build"
+  publish = "site"
